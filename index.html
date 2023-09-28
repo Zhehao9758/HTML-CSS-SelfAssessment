@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>HTML + CSS + JavaScript self assessment</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <header>
+      <h1>Main Header</h1>
+    </header>
+
+    <section>
+      <h2>Subheader 1</h2>
+      <p>Section 1 content here.</p>
+    </section>
+
+    <section>
+      <h2>Subheader 2</h2>
+      <p>Section 2 content here.</p>
+    </section>
+
+    <section>
+      <h2>Subheader 3</h2>
+      <p>Section 3 content here.</p>
+    </section>
+
+    <section>
+      <h2>Subheader 4</h2>
+      <p>Section 4 content here.</p>
+    </section>
+
+    <ul>
+        <li>&lt;head&gt; - Head section of the document</li>
+        <li>&lt;title&gt; - Title of the document</li>
+        <li>&lt;meta&gt; - Metadata about the document</li>
+        <li>&lt;style&gt; - Internal CSS styles</li>
+        <li>&lt;script&gt; - JavaScript code</li>
+        <li>&lt;body&gt; - Document body content</li>
+        <li>&lt;header&gt; - Header section of a page</li>
+        <li>&lt;nav&gt; - Navigation menu</li>
+        <li>&lt;main&gt; - Main content area</li>
+        <li>&lt;aside&gt; - Sidebar content</li>
+        <li>&lt;footer&gt; - Footer section</li>
+        <li>&lt;h1&gt; - Heading 1</li>
+        <li>&lt;h2&gt; - Heading 2</li>
+        <li>&lt;h3&gt; - Heading 3</li>
+        <li>&lt;a&gt; - Anchor link</li>
+        <li>&lt;img&gt; - Image</li>
+    </ul>
+    <!-- Task 3: Create a Grid Layout -->
+    <div>
+        3 * 3 Grid
+        <div>
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+        </div>
+        <div>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+        </div>
+        <div>
+            <span>7</span>
+            <span>8</span>
+            <span>9</span>
+        </div>
+    </div>
+
+    <!-- Task 4: Create a Gallery with Box Model Options -->
+    <div class="gallery-row">
+        <div class="gallery-item item-1">
+            <p>Border: 1px, Margin: 5px, Padding: 10px</p>
+        </div>
+        <div class="gallery-item item-2">
+            <p>Border: 2px, Margin: 10px, Padding: 15px</p>
+        </div>
+        <div class="gallery-item item-3">
+            <p>Border: 3px, Margin: 15px, Padding: 20px</p>
+        </div>
+    </div>
+
+    <!-- Row 2: Different values for border, margin, and padding -->
+    <div class="gallery-row">
+        <div class="gallery-item item-1">
+            <p>Border: 1px, Margin: 5px, Padding: 10px</p>
+        </div>
+        <div class="gallery-item item-2">
+            <p>Border: 2px, Margin: 10px, Padding: 15px</p>
+        </div>
+        <div class="gallery-item item-3">
+            <p>Border: 3px, Margin: 15px, Padding: 20px</p>
+        </div>
+    </div>
+
+    <!-- Row 3: Different values for border, margin, and padding -->
+    <div class="gallery-row">
+        <div class="gallery-item item-1">
+            <p>Border: 1px, Margin: 5px, Padding: 10px</p>
+        </div>
+        <div class="gallery-item item-2">
+            <p>Border: 2px, Margin: 10px, Padding: 15px</p>
+        </div>
+        <div class="gallery-item item-3">
+            <p>Border: 3px, Margin: 15px, Padding: 20px</p>
+        </div>
+    </div>
+
+    <!-- Task 5: Create an Itemized List with Font Sizes -->
+    <ul>
+        <li style="font-size: 12px;">Text with 12px font size (Absolute)</li>
+        <li style="font-size: 16px;">Text with 16px font size (Absolute)</li>
+        <li style="font-size: 20px;">Text with 20px font size (Absolute)</li>
+        <li style="font-size: 1em;">Text with 1em font size (Relative to Parent)</li>
+        <li style="font-size: 1.5em;">Text with 1.5em font size (Relative to Parent)</li>
+        <li style="font-size: 2rem;">Text with 2rem font size (Relative to Root)</li>
+    </ul>
+    <p>
+        Explanation:
+    <ul>
+        <li><strong>Absolute units (px):</strong> These provide a fixed font size regardless of the parent or root element's font size. Use when you need precise control over text size. For example, for fine-tuning the size of a specific button text.</li>
+        <li><strong>Relative units (em):</strong> These are relative to the font size of the parent element. Use when you want font sizes to scale proportionally based on their context. For example, for text within a paragraph.</li>
+        <li><strong>Relative units (rem):</strong> These are relative to the root element's font size, providing a consistent scale across the entire page. Use for global font scaling, ensuring a uniform look and feel across your site.</li>
+    </ul>
+    </p>
+
+    <div class="content">
+        <h2>Content Goes Here</h2>
+        <p>This is the main content of the page. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+
+    <!-- Static Positioning -->
+    <div class="static-footer">
+        <p>Static Positioning: The footer remains in the document flow. It scrolls with the content.</p>
+    </div>
+
+    <!-- Relative Positioning -->
+    <div class="relative-footer">
+        <p>Relative Positioning.</p>
+    </div>
+
+    <!-- Absolute Positioning -->
+    <div class="absolute-footer">
+        <p>Absolute Positioning: The footer is fixed at the bottom of the page.</p>
+    </div>
+
+    <!-- Fixed Positioning -->
+    <div class="fixed-footer">
+        <p>Fixed Positioning: The footer is fixed at the bottom of the viewport, always visible.</p>
+    </div>
+
+
+    <footer>Made by Zhehao</footer>
+  </body>
+</html>

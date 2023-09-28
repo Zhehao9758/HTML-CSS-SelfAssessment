@@ -1,0 +1,93 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    margin: 20px;
+}
+
+section {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+
+.gallery-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.gallery-item {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    background-color: #f0f0f0;
+    border: 1px solid #333;
+    margin: 10px;
+}
+
+/* Different values for border, margin, and padding */
+.item-1 {
+    border: 1px solid #333;
+    margin: 5px;
+    padding: 10px;
+}
+
+.item-2 {
+    border: 2px solid #666;
+    margin: 10px;
+    padding: 15px;
+}
+
+.item-3 {
+    border: 3px solid #999;
+    margin: 15px;
+    padding: 20px;
+}
+
+.content {
+    padding: 20px;
+}
+
+/* Static positioning (default) */
+.static-footer {
+    position: static;
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Relative positioning */
+.relative-footer {
+    position: relative;
+    background-color: #f0f0f0;
+    padding: 10px;
+    bottom: 2000px;
+}
+
+/* Absolute positioning */
+.absolute-footer {
+    position: absolute;
+    background-color: #f0f0f0;
+    padding: 10px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* Fixed positioning */
+.fixed-footer {
+    position: fixed;
+    background-color: #f0f0f0;
+    padding: 10px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
